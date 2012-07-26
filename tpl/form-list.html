@@ -1,0 +1,14 @@
+<div class="well">	
+	<form class="form-horizontal">
+	    <label>Templates de Bases de Datos:</label>
+	    <select id="cmbDatabases">
+	    	<% _.each(model, function(i) { print('<option>' + i.attributes.name + '</option>') }) %>
+	    </select>
+	 	
+	</form>
+	<div id="buttonsCont">
+	    <a id="btnNew" href="#"><span class="label label-info">+ nueva</span></a>
+	    <a id="btnEdit" href="#"><span class="label">editar</span></a>
+	    <a id="btnDelete" href="#"><span class="label label-important">eliminar</span></a>
+	</div>
+</div>

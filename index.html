@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="es">
+      <head>
+         <meta charset="utf-8" />
+         <title>HTML + JavaScript Project</title>
+
+
+	    <style type="text/css">
+	        body {
+	            padding-top: 60px;
+        		padding-bottom: 40px;
+	        }
+	    </style>
+
+	    <link href="css/bootstrap.css" rel="stylesheet">
+	    <link href="css/styles.css" rel="stylesheet">
+
+         
+      </head>
+      <body>
+
+	    <div id="header"></div>
+
+		
+		
+		
+		<div id="appContainer"></div>
+
+
+         <!-- LIBS -->
+         <script src="lib/jquery-1.7.1.min.js"></script>
+         <script src="lib/jquery-ui-1.8.22.custom.min.js"></script>
+         <script src="lib/underscore-min.js"></script>
+         <script src="lib/backbone-min.js"></script>
+		 <script src="lib/bootstrap.js"></script>
+		 <script src="lib/bootstrap-modal.js"></script>
+		 
+		 <!-- NOTE: memorystore.js will set up an in-memory datastore to allow you to experience the app without setting up
+		back-end infrastructure. All the changes you make to the data will be lost the next time you access the app or hit Refresh.
+		To use the app with a persistent RESTful back-end (provided in the GitHub repo), simply comment out the line below. -->
+		<script src="js/memorystore.js"></script>
+		 
+		 
+         <script src="js/utils.js"></script>
+         <!-- MODELS  -->
+         	<script src="js/models/form-model.js"></script>
+         
+         <!-- VIEWS   -->
+         <script src="js/views/designer-view.js"></script>
+         <script src="js/views/designer/form-properties-view.js"></script>
+         <script src="js/views/designer/header-view.js"></script>
+         <script src="js/views/designer/footer-view.js"></script>
+         <script src="js/views/designer/sidebar-view.js"></script>
+         <script src="js/views/designer/field-view.js"></script>
+         
+         <script src="js/main.js"></script>
+      </body>
+   </html>
